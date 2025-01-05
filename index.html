@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unni Electricals</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            HOUSEJOBS   
+        </div>
+        <div class="btn-logo">
+            <div class="home">
+                <i class="bi bi-house-door" style="color: #2dd4bf; font-size: 40px;" id="hover-icon"></i>
+            </div>
+            <div class="about">
+                <i class="bi bi-person" style="color: #2dd4bf; font-size: 40px;" id="hover-icon"></i>
+            </div>
+            <div class="contact">
+                <i class="bi bi-telephone" style="color: #2dd4bf; font-size: 40px;" id="hover-icon"></i>
+            </div>
+        </div>
+        <div class="btn-side">
+            <div class="log-in">
+                <button class="log-in-btn">Log In</button>
+            </div>
+            <span>|</span>
+            <div class="sign-in">
+                <button class="sign-in-btn">Sign In</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="welcome">
+        <h1 class="heading">Welcome To HOUSEJOBS</h1>
+        <p className="text-lg text-gray-600 leading-relaxed">
+            At HOUSEJOBS, we understand that household tasks can be time-consuming and stressful. That's why we’ve created a simple, user-friendly platform to help you find qualified professionals who can handle a wide range of services, from electrical work to plumbing and more. With just a few clicks, you can find the right expert for your needs, ensuring quality service and peace of mind. Let us take the hassle out of household repairs and improvements so you can focus on what matters most.
+          </p>
+    </div>
+
+    <div class="details hide">
+        <div class="personal-details">
+            <p>👤</p>
+            <h3>Unnikrishnan M</h3>
+            <p>35 years of experience</p>
+            <p>Chettupuzha, Thrissur 680012</p>
+            <p>ITEC Graduate</p>
+        </div>
+        <div class="work">
+            <h3>Proficient in:</h3>
+            <ol>
+                <li data-description="Expert in all types of plumbing installations and repairs">Plumbing</li>
+                <li data-description="Specialized in motor repair and maintenance">Motor Winding</li>
+                <li data-description="Complete electrical solutions for residential and commercial spaces">All Electrical works</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="contact-details hide">
+        <div class="id-details">
+            <h2 class="footer-title">For more details or for booking calls:</h2>
+            <h3><img src="./telephone.png" width="20px" class="id"> 9388558289</h3>
+            <h3><img src="./mail.png" width="20px" class="id"> karthika735693@gmail.com</h3>
+            <h3><img src="./instagram.png" width="20px" class="id"> @karthika_305</h3>
+            <h3><img src="./social-media.png" width="20px" class="id"> Unni Unni</h3>
+        </div>
+    </div>
+    <div class="popup-container hide">
+        <div class="popup login-popup ">
+            <h2>Log In</h2>
+            <input type="email" placeholder="Email" class="popup-input" />
+            <input type="password" placeholder="Password" class="popup-input" />
+            <button class="popup-btn">Log In</button>
+            <button class="close-popup-btn">Close</button>
+        </div>
+        <div class="popup sign-up-popup">
+            <h2>Sign Up</h2>
+            <input type="text" placeholder="Full Name" class="popup-input" />
+            <input type="email" placeholder="Email" class="popup-input" />
+            <input type="password" placeholder="Password" class="popup-input" />
+            <button class="popup-btn">Sign Up</button>
+            <button class="close-popup-btn">Close</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
