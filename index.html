@@ -43,7 +43,7 @@
     <!-- Welcome Page -->
     <div class="welcome">
         <h1 class="heading">Welcome To HOUSEJOBS</h1>
-        <p className="text-lg text-gray-600 leading-relaxed">
+        <p class="text-lg text-gray-600 leading-relaxed">
             At HOUSEJOBS, we understand that household tasks can be time-consuming and stressful. 
             That's why we've created a simple, user-friendly platform to help you find qualified 
             professionals who can handle a wide range of services, from electrical work to plumbing 
@@ -95,13 +95,20 @@
         </div>
         <div class="popup sign-up-popup">
             <h2>Sign Up</h2>
-            <input type="text" placeholder="Full Name" class="popup-input" />
-            <input type="email" placeholder="Email" class="popup-input" />
-            <input type="password" placeholder="Password" class="popup-input" />
-            <button class="popup-btn">Sign Up</button>
+            <input type="text" placeholder="Full Name" class="popup-input" id="name" />
+            <input type="email" placeholder="Email" class="popup-input" id="email" />
+            <input type="password" placeholder="Password" class="popup-input" id="password" />
+            <input type="number" placeholder="Age" class="popup-input" id="age" />
+            <input type="text" placeholder="Experience (e.g., 5 years)" class="popup-input" id="experience" />
+            <input type="text" placeholder="Proficient In" class="popup-input" id="proficiency" />
+            <input type="text" placeholder="Graduation (e.g., B.Tech)" class="popup-input" id="graduation" />
+            <button class="popup-btn" id="signUpBtn">Sign Up</button>
             <button class="close-popup-btn">Close</button>
         </div>
     </div>
+
+    <div id="profile-section"></div> <!-- Profile section where new profiles will be added -->
+    
     <script src="./script.js"></script>
 </body>
 </html>
